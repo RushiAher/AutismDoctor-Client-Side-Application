@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --app-color:#17a2b8;
+
+ --primary-color: rgb(11, 78, 179);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* new appointment section */
+.new-appointment-section{
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    /* justify-content: flex-start; */
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.progress-step::after{
+    width: 5rem;
+}

@@ -1,0 +1,9 @@
+@media (max-width:911px){
+    html{
+        font-size: 90%;
+    }
+    .form{width: 90%;}
+    .blog-section .content-panel .container{
+ width: 100%;   
+}
+}

@@ -1,0 +1,69 @@
+@media (max-width:911px){
+    .input-component{
+        width: 100%;
+    }
+    .card-container{
+    width: 90%;
+}
+.footer{
+    flex-flow: column nowrap;
+    height: 10rem;
+}
+.footer >div{
+    display: flex;
+    justify-content: space-between;
+    width: 40%; 
+  
+}
+
+/* doctor card */
+.doc-container{
+    width: 90%;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+.doc-container .doc-left-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.doc-container .doc-left-container img{
+    
+    width: 100%;
+    height: 100%;
+
+}
+.doc-container .doc-middle-container{
+    width: 100%;
+    padding-left: 1rem;
+}
+.doc-container .doc-right-container{
+    width: 100%;
+    flex-flow: row nowrap;
+    padding-left: 1rem;
+}
+.test-history-container{
+    width: 90%;
+}
+
+/* msg page */
+.msg-section{
+    justify-content: center;
+}
+.msg-section .msg-container{
+    width: 90%;
+}
+.view-msg .modal-dialog .modal-content{
+     width: 80%;
+}
+.schedule-appointment-container .modal-dialog .modal-content{
+     width: 80%;
+}
+/* new appointment */
+.new-appointment-section{
+    justify-content: center;
+}
+.new-appointment-section .appointment-container{
+    width: 90%;
+}
+}

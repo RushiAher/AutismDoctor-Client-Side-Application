@@ -1,0 +1,92 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --app-color:#17a2b8;
+
+ --primary-color: rgb(11, 78, 179);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* admin login */
+.admin-section{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-section .login-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 30%;
+    padding: 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    background-color: var(--light);
+}
+.admin-section .login-container form{
+    width: 100%;
+}
+.admin-section .login-container .btn{
+    color: black;
+    background-color: var(--app-color);
+}
+
+/* write blog section */
+
+.blog-section .content-panel .container{   
+     width: 80%;
+    padding: 1rem;
+    background-color: var(--light);
+    height: max-content;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    justify-content: center;
+    box-shadow: 0.5rem 0.5rem 2rem rgb(0 0 0 / 20%);
+}
+.blog-section .content-panel .container >form{
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5rem;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.blog-section .content-panel .container textarea{
+    min-height: 10rem;
+}
+.blog-section .content-panel .container p{
+    margin-bottom: 0;
+}
+.blog-section .content-panel .container .btn{
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+/* msg section */
+.msg-section{
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    /* justify-content: flex-start; */
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,171 @@
+@media (max-width:911px){
+    html{
+        font-size: 90%;
+    }
+    .form{width: 90%;}
+    .section .signup-container{
+    width:90%;
+    flex-flow: column nowrap;
+    margin-bottom: 2rem;
+    }
+    .section .signup-container .signup-left-container,.section .signup-container .signup-right-container{
+        width: 100%;
+    }
+    /* .section .signup-container .signup-right-container img{
+        display: none;
+    } */
+    .section .signup-container .signup-right-container .already-signup{
+        position: absolute;
+        bottom: -30px;
+        color: black;
+        text-transform: capitalize;
+        /* margin: 1rem 0; */
+        padding-bottom: 2rem;
+    }
+
+    .section .signup-container .signup-right-container img {
+        width: 80%;
+
+    }
+
+    /* contact form */
+    .contact-section .contact-main-container{
+    width: 90%;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    }
+    .contact-section .contact-main-container .contact-info{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        height: max-content;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .contact-section .contact-main-container .contact-form{
+    width: 90%;
+    
+  
+}
+    .contact-section .contact-main-container .contact-form .form-row{
+        flex-flow: column nowrap;
+        gap: 1rem;
+  
+    }  
+    
+    /* error page */
+    .error-page h1{
+      font-size: 15rem;
+    }
+   .error-page p{
+     top: 54%;
+     font-weight: 400;
+     font-size: .8rem;
+   }
+    .error-page h2{
+      top: 40%;
+      font-size: 2rem;
+    }
+   /* result card */
+.result-container{
+    width: 90%;
+}
+.history-section .left-section{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 0;
+    flex-flow: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+.history-section .right-section{
+  display: none;
+}
+
+.blog-section .left-panel-2 {
+  width: 70%;
+  position: absolute;
+}
+.blog-section .left-panel-2 .left-panel-content{
+  height: 67%;
+}
+.blog-section .left-panel-1 {
+  width: 50%;
+  position: absolute;
+}
+
+.blog-section .content-panel{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 3.5rem;
+  /* z-index: -1; */
+
+}
+}
+@media screen and (min-width:625px) and (max-width:912px){
+  
+  .parent_container{
+    flex-flow: column nowrap !important;
+    justify-content: space-between !important;
+  }
+  .left_container,.right_container{
+    width: 100% !important;
+  }
+  .left_child2{
+    align-items: center !important;
+    
+  }
+  .left_child2 img{
+    margin: 20px 0px;
+  }
+.contact-form >form{
+  width: 90%;
+}
+  
+}
+@media screen and (max-width:624px){
+   .menu_hide{
+    display: none;
+  }
+  .parent_container{
+    flex-flow: column nowrap !important;
+    justify-content: space-between !important;
+  }
+  .left_container,.right_container{
+    width: 100% !important;
+  }
+  .left_child2{
+    align-items: center !important;
+    width: 40% !important;
+    
+  }
+  .left_child1{
+    width: 60% !important;
+  }
+  .left_child2 img{
+    margin: 20px 0px;
+  }
+  .autism-img-2, .autism-img-3{
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .autism-img-1{
+      width: 200px !important;
+    height: 200px !important;
+  }
+  .quote span{
+  font-size: 1rem !important;
+}
+.quote{
+  font-size: 1.2rem !important;
+}
+.contact-form >form{
+  width: 90%;
+}
+
+}
+

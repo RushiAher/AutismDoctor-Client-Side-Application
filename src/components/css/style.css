@@ -1,0 +1,388 @@
+:root{
+    --app-color:#17a2b8;
+  
+}
+
+.input-component{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 1.5rem 0;
+}
+
+.input-component .inp-icon{
+    margin-right: .8rem;
+    font-size: 1rem;
+}
+.input-component .inp-input{
+        border: 0;
+    border-bottom: 1px solid black;
+    width: 80%;
+    background: var(--light);
+    outline: none;
+}
+
+
+/* Address Card */
+.card-container{
+    display: flex;
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--light);
+    box-shadow: 1rem 1rem 1rem rgb(0 0 0 / 10%);
+    align-items: center;
+    border-radius: 0.8rem;
+    /* padding-left: 1rem;
+     */
+  
+}
+.card-container .icon{
+    display: flex;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+   color: var(--app-color);
+}
+.card-container .card-info{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.card-container .card-info h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.card-container .card-info p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    padding: 1.5rem;
+    background-color: var(--light);
+    font-size: 1.2rem;
+    align-items: center;
+}
+.footer >div{
+    display: flex;
+    justify-content: space-between;
+    width: 6%; 
+}
+.footer >div >a{
+    color: black;
+}
+.footer >div >a:hover{
+    color: var(--cyan);
+}
+
+
+/* doctor card */
+.doc-container{
+    width: 50%;
+    height: max-content;
+    padding:2rem .5rem;
+    display: flex;
+    background-color: var(--light);
+    box-shadow: 1rem 1rem 1rem rgb(0 0 0 / 10%);
+    /* justify-content: space-between; */
+    border-radius: .8rem;
+    align-items: center;
+
+}
+.doc-container .doc-left-container{
+    width: 25%;   
+}
+.doc-container .doc-left-container img{
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+
+}
+.doc-container .doc-middle-container{
+    width: 40%;
+}
+.doc-container .doc-middle-container p{
+    margin-bottom: 0;
+}
+.doc-container .doc-middle-container h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.doc-container .doc-middle-container .degree{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: .8rem;
+   
+}
+.doc-container .doc-middle-container .experiance{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: .8rem;
+    margin-bottom: .8rem;
+}
+.doc-container .doc-right-container{
+    width: 35%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1rem;
+}
+.doc-container .doc-right-container .btn{
+    background-color: var(--app-color);
+
+}
+
+/* test history card */
+.test-history-container{
+    width: 100%;
+    height: max-content;
+    /* padding:.8rem 2.5rem; */
+    display: flex;
+    background-color: var(--light);
+    /* box-shadow: 1rem 1rem 1rem rgb(0 0 0 / 10%); */
+    justify-content: space-between;
+    border-radius: .8rem;
+    align-items: center;
+
+}
+.test-history-container .info p{
+    margin-bottom: 0;
+}
+.test-history-container .btn{
+ background-color: var(--app-color);
+}
+
+/* doctor card min */
+.doc-container-min{
+    width: 98%;
+    height: max-content;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-flow: column;
+    background-color: var(--light);
+    /* box-shadow: 1rem 1rem 1rem rgb(0 0 0 / 10%); */
+    /* justify-content: space-between; */
+    /* border-radius: 0.8rem; */
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+
+}
+
+.doc-container-min .doc-middle-container{
+    width: 100%;
+}
+.doc-container-min .doc-middle-container p{
+    margin-bottom: 0;
+}
+.doc-container-min .doc-middle-container h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.doc-container-min .doc-middle-container .degree{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: .8rem;
+   
+}
+.doc-container-min .doc-middle-container .experiance{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: .8rem;
+    margin-bottom: .8rem;
+}
+.doc-container-min .doc-right-container{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    gap: 1rem;
+}
+/* .doc-container-min .doc-right-container .btn{
+    background-color: var(--light);
+
+} */
+
+/* modal card */
+.modal-body .result-container{
+    width: 100%;
+    margin-top: 0;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 60%;
+    margin: 1.75rem auto;
+}
+}
+
+/* blog card */
+.blog-card-container{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    width: 100%;
+    height: max-content;
+    gap: .5rem;
+    background-color: white;
+    box-shadow: 0rem 0rem 1rem rgb(0 0 0 / 20%);
+}
+
+.blog-card-container .blog-content{
+    width: 70%;
+    cursor: pointer;
+}
+.blog-card-container .blog-content .title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.blog-card-container .btn-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5rem;
+    gap: .5rem;
+
+}
+
+/* blog content card */
+.blog-main-card{
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    background-color: white;
+    box-shadow: 0rem 0rem 1rem rgb(0 0 0 / 20%);
+    padding: 1rem;
+    justify-content: center;
+}
+.blog-main-card .title{
+font-size: 1.5rem;
+}
+
+.blog-main-card .blog-img{
+    width: auto;
+    max-height: 25rem;
+}
+.blog-main-card .blog-content .author{
+    margin: .5rem auto;
+}
+
+.blog-main-card .blog-content .content{
+    text-align: justify;
+}
+
+
+/* user messages card */
+
+.msg-section .msg-container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 32%;
+    height: max-content;
+    background-color:white;
+    border-radius: .3rem;
+    padding: 1rem;
+    box-shadow: 0rem 0rem 1rem rgba(0 0 0 /20%);
+}
+.msg-section .msg-container .user-info>p{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+.msg-section .msg-container .user-info>p>span{
+    /* font-weight: 400; */
+    /* color: var(--app-color); */
+    margin-right: .5rem;
+}
+.msg-section .msg-container .user-msg{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid gainsboro;
+    max-height: 12rem;
+    margin-top: 1rem;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    overflow-y: scroll;
+    gap: .5rem;
+}
+
+.msg-section .msg-container .user-msg::-webkit-scrollbar{
+    display: none;
+}
+
+/* user msg card */
+.user-msg-container{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   box-shadow: 0rem 0rem 1rem rgba(0 0 0 /10%);
+   border-radius: .3rem;
+}
+.user-msg-container>p{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+.view-msg .modal-dialog{
+     display: flex;
+     justify-content: center;
+     margin-top: 5rem;
+     
+}
+.view-msg .modal-dialog .modal-content{
+     width: 50%;
+}
+.view-msg .modal-dialog .modal-content .modal-body{
+     width: 100%;
+     height: max-content;
+     max-height: 20rem;
+     overflow-y: scroll;
+}
+.view-msg .modal-dialog .modal-content .modal-body::-webkit-scrollbar{
+    display: none;
+}
+
+/* new appointment card */
+.new-appointment-section .appointment-container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 32%;
+    height: max-content;
+    background-color:white;
+    border-radius: .3rem;
+    padding: 1rem;
+    box-shadow: 0rem 0rem 1rem rgba(0 0 0 /20%);
+}
+.new-appointment-section .appointment-container .appointment-info >p{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+.new-appointment-section .appointment-container .appointment-info >p>span{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-right: .5rem;
+}
+.new-appointment-section .appointment-container .button-container{
+        display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.schedule-appointment-container .modal-dialog{
+     display: flex;
+     justify-content: center;
+     margin-top: 5rem;
+     
+}
+.schedule-appointment-container .modal-dialog .modal-content{
+     width: 50%;
+}
